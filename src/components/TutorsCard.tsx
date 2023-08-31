@@ -17,8 +17,8 @@ const TutorsCard: React.FC<PopularCardProps> = ({tutorData}) => {
   const {name, _id, image_url, education, education_qualification} = tutorData || {};
   
     return (
-        <div className='my-4 mx-auto relative w-full'>
-            <div className="card card-compact h-full  bg-base-100 shadow-xl hover:shadow-2xl border transition ease-in-out delay-150 hover:-translate-y-2 mx-auto  hover:border-cyan-500  hover:shadow-cyan-500/50 rounded ">
+        <div className='my-4 mx-auto relative w-full h-[520px]'>
+            <div className="card card-compact h-full  bg-base-100 shadow-xl hover:shadow-2xl border transition ease-in-out delay-150 hover:-translate-y-2 mx-auto  hover:border-cyan-500  hover:shadow-cyan-500/50 rounded  ">
               <div className='mx-auto p-10 '>
               <Image
               className=' mx-auto rounded outline outline-1 hover:outline-cyan-500 shadow-lg hover:shadow-cyan-500/50'

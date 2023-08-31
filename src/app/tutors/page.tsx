@@ -14,7 +14,7 @@ const TutorsPage=   () => {
 	useEffect(() => {
 	  const fetchAllData = async () => {
 		try {
-		  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/tutors/sort-tutors`, {
+		  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/tutors`, {
 			cache: 'no-cache'
 		  });
 		  const data = await res.json();
