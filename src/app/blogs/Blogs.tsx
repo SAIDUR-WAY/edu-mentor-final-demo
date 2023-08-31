@@ -21,8 +21,6 @@ const Blogs = () => {
 
     const [selected, setSelected] = useState(people[0])
 
- 
-
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)

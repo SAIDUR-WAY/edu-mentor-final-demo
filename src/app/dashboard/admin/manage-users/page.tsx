@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const ManageUsers = () => {
 
-  const role: string = "admin";
+  const role = "admin";
   // const { user, setUserRole, loading, setLoading } = useAuth();
   // // const [disableInstructorBtn, setDisableInstructorBtn] = useState(false);
   // // const [disableAdminBtn, setDisableAdminBtn] = useState(false);
