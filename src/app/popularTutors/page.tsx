@@ -3,10 +3,8 @@ import React, { useEffect, useState } from 'react';
 // import mentorData from '../../../public/data.json';
 // import PopularCard from './PopularCard';
 import SectionTitle from "@/components/(shared)/SectionTitle/SectionTitle";
-
-import PopularCard from '@/components/Home/PopularCard';
+import PopularCard from './PopularCard';
 import { Tutor } from '@/typeScript/tutorType';
-
 
 
 const PopularTutors =  () => {

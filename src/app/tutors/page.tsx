@@ -1,10 +1,8 @@
 'use client'
 import SectionTitle from "@/components/(shared)/SectionTitle/SectionTitle";
-
 import { Tutor } from '@/typeScript/tutorType';
-
 import CommonBanner from "@/components/(shared)/CommonHeader/CommonBanner";
-import TutorsCard from "@/components/TutorsCard";
+import TutorsCard from "./TutorsCard";
 import { useEffect, useState } from "react";
 
 const TutorsPage=   () => {
